@@ -1,0 +1,99 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+
+@media only screen and (max-width: 480px) {
+    .titre-affiche {
+        font-size: 2.2rem !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 852px) {
+    cardscroll {
+        max-width: 852px;
+        overflow-x: scroll;
+    }
+    .titre-affiche {
+        font-size: 2.8rem;
+    }
+}
+
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .titre-affiche {
+        font-size: 3rem;
+    }
+}
+
+
+/* Sur tous types d'écrans de minimum 995px */
+@media only screen and (min-width: 995px) {
+    .positionnementREsp {
+        height: 40rem;
+    }
+    .positionnementREs {
+        display: none;
+    }
+}
+/* Sur tous types d'écrans de maximum 994px */
+@media only screen and (max-width: 994px) {
+    /*.positionnementREsp {
+        height: 25rem;
+    }*/
+    /*.positionnementREsp {
+        display: none;
+    }*/
+    .positionnementREsp {
+        height: 40rem;
+    }
+}
+/***************************************************************/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    }
+    
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 321px) {
+    /* Styles */
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    }
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen and (min-width : 1224px) {
+    /* Styles */
+    }
+    
+    /* Large screens ----------- */
+    @media only screen and (min-width : 1824px) {
+    /* Styles */
+    }
+    

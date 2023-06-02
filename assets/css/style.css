@@ -1,0 +1,150 @@
+body {
+    font-family: "roboto" sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.paddi {
+    width: 4%;
+}
+
+.squarre {
+    height: 3%;
+}
+
+.concept {
+    list-style: none;
+    font-size: 30px;
+    color: #9c9c9c;
+}
+
+.positionsideleft {
+    position: fixed;
+    left: 0;
+    top: 6.3%;
+    width: 4%;
+    height: 93.7%;
+}
+
+.positionsideright {
+    position: fixed;
+    right: 0;
+    top: 6.3%;
+    width: 4%;
+    height: 93.7%;
+}
+
+.chat {
+    background: #38a9ff;
+}
+
+.chat-active {
+    background: #32b932;
+}
+
+.contain {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    max-height: 93.7%;
+    background: url('../../assets/images/filligt.png') no-repeat;
+    background-size: cover;
+    background: #000;
+}
+
+.nav-espace {
+    width: 4%;
+    height: 7%;
+    top: 0;
+}
+
+.side-width {
+    width: 4%;
+    position: fixed;
+    height: 93%;
+}
+
+.nav-espace {
+    position: fixed;
+    height: 93%;
+    top: 7%;
+    width: 5%
+}
+
+.bg-activator {
+    background: #005ea3;
+}
+
+.text-activator {
+    color: #005ea3;
+}
+
+
+/* les buttons */
+
+.btn-activator {
+    background: #005ea3;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.btn-activator:hover {
+    background: #046bb7;
+}
+
+.btn-outline-activator {
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #005ea3;
+}
+
+.btn-outline-activator:hover {
+    background: #005ea3;
+}
+
+
+/*  
+<header id="header" class="header header-sticky-top-lg position-fixed w-100 bg-white shadow-soft" style="z-index: 6;">
+<div class="header-section bg-activator">
+    <!-- Topbar -->
+  <div class="">
+      <div class="d-flex align-items-center mr-5">
+          <!-- Change account -->
+          <div class="hs-unfold bg-white">
+              <img class="d-none d-lg-block" src="assets/logos/logo-lg.png" width="230px">
+              <img class="d-block d-lg-none" src="assets/logos/logo-mob.png" width="100px">
+          </div>
+          <!-- End Change account -->
+
+          <div class="ml-auto my-auto">
+              <!-- Address connected -->
+              <div class="hs-unfold mr-1">
+                <ul class="nav justify-content-start mr-1">
+                  <li class="nav-item d-none d-md-block">
+                    <div class="input-group input-group-merge input-group-borderless input-group-hover-light navbar-input-group mt-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="tio-search"></i>
+                            </div>
+                        </div>
+                        <input type="search" class="js-form-search form-control  bg-search" placeholder="Search here" aria-label="Search in front">
+                    </div>
+                  </li>
+                  <li class="nav-item mt-2 mr-2 ml-2 btn-toggle-menu">
+                      <button type="button" class="js-navbar-vertical-aside-toggle-invoker mt-1 close">
+                          <i class="tio-notifications-on-outlined navbar-vertical-aside-toggle-short-align mt-2 float-right"></i>
+                      </button>
+                  </li>
+                  <li class="nav-item mt-2 mr-1 ml-1 avatar avatar-sm avatar-circle d-flex">
+                          <img class="avatar-img" src="assets/images/profile.jpg" alt="Image Description">
+                          <small class="d-block text-hover-primary mb-0">"HI" Francklin</small>
+                  </li>
+                </ul>
+              </div>
+              <!-- End address connected -->
+          </div>
+      </div>
+  </div>
+</div>
+</header>
+*/
